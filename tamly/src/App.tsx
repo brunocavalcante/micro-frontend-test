@@ -7,7 +7,7 @@ import './App.css';
 
 const TaskList: React.FC = () => {
   const [tasks, setTasks] = useState([
-    { id: 1, text: 'Complete project proposal for Binil', completed: false },
+    { id: 1, text: 'Complete project proposal for Scott', completed: false },
     { id: 2, text: 'Review code changes', completed: true },
     { id: 3, text: 'Update documentation', completed: false },
   ]);
